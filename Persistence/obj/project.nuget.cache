@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iQfyomRCj3drGXXr1SYXWETAaI/a/bcvqHvERDjoF33yshwzLdIsOpq761tp0fEeyIXrXkboTaIEgCeoaFypbQ==",
+  "dgSpecHash": "mk1vkLfOknXFmo9rc9dyVIrg5SKKcRTnKfreNpBUSyV2WOzaHl+N/N9+i4f0ZFTlPSUMp0c3aY5WzT8gP5MeNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Persistence\\Persistence.csproj",
+  "projectFilePath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\delos\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\delos\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

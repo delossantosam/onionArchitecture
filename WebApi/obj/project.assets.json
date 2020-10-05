@@ -1622,6 +1622,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -5995,11 +5998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\WebApi\\WebApi.csproj",
+      "projectPath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\delos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\WebApi\\obj\\",
+      "outputPath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6020,8 +6023,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Persistence\\Persistence.csproj"
+            "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Persistence\\Persistence.csproj": {
+              "projectPath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Persistence\\Persistence.csproj"
             }
           }
         }

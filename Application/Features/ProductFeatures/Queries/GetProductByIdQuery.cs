@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Domain.Entities;
+using Domain.Interfaces;
 using MediatR;
 using System.Linq;
 using System.Threading;
@@ -12,15 +13,18 @@ namespace Application.Features.ProductFeatures.Queries
         public int Id { get; set; }
         public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, Product>
         {
-            private readonly IApplicationDbContext _context;
-            public GetProductByIdQueryHandler(IApplicationDbContext context)
+            private readonly IUnitOfWork _unitOfWork;
+
+            public GetProductByIdQueryHandler(IUnitOfWork unitOfWork)
             {
-                _context = context;
+                _unitOfWork = unitOfWork;
             }
             public async Task<Product> Handle(GetProductByIdQuery query, CancellationToken cancellationToken)
             {
-                var product = _context.Products.Where(a => a.Id == query.Id).FirstOrDefault();
+                var product = await _unitOfWork.Product.GetByIdAsync(query.Id);
+                
                 if (product == null) return null;
+                
                 return product;
             }
         }

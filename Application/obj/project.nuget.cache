@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LXhu02O3/fc8WUPn+DVhFE4IxD3JUiJC5Dlzm7EeDr/VMWgUQxk2jzqfG0vIsoxxRGtbtTHQ8BlQ+tUlosbs1A==",
+  "dgSpecHash": "iE//IkYUwnbrZ53P4SHVZn63lsysxqHhSXZweEdj561Z4nUOz7ymoZCY1ZSuIr2fgKJJtQ0BhzxUnBJr9COBHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Application\\Application.csproj",
+  "projectFilePath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\delos\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\delos\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

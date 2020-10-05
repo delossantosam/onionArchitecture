@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LdcSpyVmoLv1xbiyYQU4gbN81BhvS2luLLf/aJipZWWpMiBTNJYr51EMJY2MOX2Hq6lPIEz9SQKwwLAMNRXBGQ==",
+  "dgSpecHash": "3w4ESUDJ0/Vn57kZTEDNUreloHIhTMMYsySwQlI/E4Wvv1gZpmMHRyS4ryHSoyuiepuiZKzhXT0gHmtfj3a0FA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\WebApi\\WebApi.csproj",
+  "projectFilePath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\delos\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\delos\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

@@ -1,8 +1,10 @@
 ﻿using Application.Interfaces;
+using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Persistence.Context;
+using Persistence.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,6 +20,12 @@ namespace Persistence
 
             services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
 
+            #region Repositories
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<IProductRepository, ProductRepository>();            
+            #endregion
+
+            services.AddTransient<IUnitOfWork, UnitOfWork.UnitOfWork>();
         }
     }
 }

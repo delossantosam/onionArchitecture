@@ -308,6 +308,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -945,11 +948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Application\\Application.csproj",
+      "projectPath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\delos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Application\\obj\\",
+      "outputPath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -970,8 +973,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\delos\\Source\\Repos\\OnionArchitecture\\Domain\\Domain.csproj"
+            "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\Desarrollo\\source\\gitHub\\onionArchitecture\\Domain\\Domain.csproj"
             }
           }
         }
